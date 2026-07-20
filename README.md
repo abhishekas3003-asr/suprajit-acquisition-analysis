@@ -22,14 +22,11 @@ The question this project answers is the one any board, investor, or acquirer wo
 
 ## The dashboard
 
-<!-- 📸 Replace this with your Power BI dashboard screenshot(s).
-     Recommended: one full-dashboard image, plus one image showing the
-     Evidence 01 toggle in its "Excluding SCS" state so the interactivity is visible.
-     Save images to /assets and reference them like:  ![Dashboard](assets/dashboard.png) -->
-
-![Suprajit Dashboard](assets/dashboard.png)
+![Suprajit Dashboard](assets/dashboard-full.jpg)
 
 Two interactive elements do the analytical work. A consolidated / ex-acquisition toggle flips the profit story between the reported collapse and the underlying business in one click. A counterfactual slider lets the reader test how fast the international regions would have had to grow without the acquisition to reach the same diversification. They would have had to grow implausibly fast, which is the point.
+
+![The toggle in action](assets/dashboard-toggle.gif)
 
 ---
 
@@ -89,17 +86,17 @@ Operating EBITDA still grew 40.8% even as PAT fell. That split between operating
 
 ## Repository structure
 
-```
+suprajit-acquisition-analysis/
 ├── README.md
 ├── report/
-│   └── Suprajit_Analysis_FY21-FY25.pdf      full 30-page written analysis
+│   └── SUPRAJIT_ANALYSIS.pdf          full written analysis
 ├── sql/
-│   └── suprajit_analysis.sql                validation gate and analytical queries
+│   └── suprajit_analysis.sql          validation gate and analytical queries
 ├── dashboard/
-│   ├── Suprajit_Dashboard.pbix              interactive Power BI file
-│   └── data/                                source tables (Excel)
+│   └── suprajit-dashboard.pbix        interactive Power BI file
 └── assets/
-    └── dashboard.png                        dashboard screenshots
+    ├── dashboard-full.jpg             full dashboard view
+    └── dashboard-toggle.gif           the ex-SCS toggle in action
 ```
 
 ---
