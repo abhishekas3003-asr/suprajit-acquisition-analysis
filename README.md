@@ -82,8 +82,6 @@ Operating EBITDA still grew 40.8% even as PAT fell. That split between operating
 
 **Why I only estimated what the data could support.** The counterfactual could answer some questions honestly and not others. How much revenue the expansion added is estimable, with medium confidence. How much it changed diversification is estimable, with high confidence. But what profit margins would have been without the acquisition depends on assumptions the disclosures simply do not contain. So instead of inventing a number to fill the gap, I marked it "not estimated" and tagged a confidence level on every conclusion. Being clear about what you cannot prove is part of the analysis, not a hole in it.
 
----
-
 suprajit-acquisition-analysis/
 ├── README.md
 ├── report/
@@ -95,8 +93,6 @@ suprajit-acquisition-analysis/
 └── assets/
     ├── dashboard-full.jpg             full dashboard view
     └── dashboard-toggle.gif           the ex-SCS toggle in action
-
----
 
 ## The verdict, in full
 
