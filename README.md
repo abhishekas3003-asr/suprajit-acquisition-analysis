@@ -84,8 +84,6 @@ Operating EBITDA still grew 40.8% even as PAT fell. That split between operating
 
 ---
 
-## Repository structure
-
 suprajit-acquisition-analysis/
 ├── README.md
 ├── report/
@@ -97,7 +95,6 @@ suprajit-acquisition-analysis/
 └── assets/
     ├── dashboard-full.jpg             full dashboard view
     └── dashboard-toggle.gif           the ex-SCS toggle in action
-```
 
 ---
 
